@@ -30,6 +30,9 @@ gem 'jbuilder', '~> 2.5'
 # Using Webpacker
 gem 'webpacker', '~> 4.x'
 
+# Using Materialize CSS
+gem 'materialize-sass', '~> 1.0.0'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
