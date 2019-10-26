@@ -17,7 +17,7 @@
       <tr>
         <td><%= todo.title %></td>
         <td><%= todo.content %></td>
-        <td><button class="btn green">Done</button></td>
+        <td><%= link_to "Done", todo_path(todo), method: :patch, class: "btn green" %></td>
       </tr>
     <% end %>
   </tbody>
